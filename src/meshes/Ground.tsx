@@ -6,8 +6,8 @@ import {TextureLoader, LinearSRGBColorSpace, RepeatWrapping, Vector2} from 'thre
 export default function Ground() {
 
     const [rough, normal] = useLoader(TextureLoader, [
-        process.env.PUBLIC_URL + 'textures/ground_rough.jpg',
-        process.env.PUBLIC_URL + 'textures/ground_normal.jpg',
+        process.env.PUBLIC_URL + '/textures/ground_rough.jpg',
+        process.env.PUBLIC_URL + '/textures/ground_normal.jpg',
     ]);
 
     React.useEffect(() => {
