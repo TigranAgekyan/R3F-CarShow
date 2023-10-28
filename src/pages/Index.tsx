@@ -1,6 +1,4 @@
 import React, {Suspense} from 'react';
-import logo from './logo.svg';
-import './App.css';
 import {Canvas, Vector3} from '@react-three/fiber';
 import {OrbitControls, PerspectiveCamera, Environment, CubeCamera} from '@react-three/drei';
 import Ground from '../meshes/Ground';
